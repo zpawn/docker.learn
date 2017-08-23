@@ -63,7 +63,7 @@ ln -s /var/www/docker.learn/vagrant/nginx/app.conf /etc/nginx/sites-enabled/app.
 echo "Done!"
 
 info "Install composer"
-#curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
+curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
 
 info "Install Docker:"
 

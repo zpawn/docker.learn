@@ -1,3 +1,7 @@
 /.idea
 /.vagrant/
 /vagrant/nginx/log/
+
+/backend/vendor/
+/frontend/vendor/
+/middle/public/vendor/
